@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <nav class="menu">
+        <ul class="menu-list">
+            <li class="menu-list-item">
+                <a href="./index.html">Sobre mim</a>
+            </li>
+            <li class="menu-list-item">
+                <a href="./formacao.html">Formação</a>
+            </li>
+            <li class="menu-list-item">
+                <a href="./portifolio.html">Portifólio</a>
+            </li>
+            <li class="menu-list-item">
+                <a class="active" href="./contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="section">
+        <div class="card">
+            <h2>Contato</h2>
+            <h4>Preencha as informações para entrar em contato.</h4>
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="w-50">
+                        <label for="nick">Nome</label>
+                        <input required type="text" id="nick" name="nick">
+                    </div>
+                    <div class="w-50">
+                        <label for="nickname">Sobrenome</label>
+                        <input required type="text" id="nickname" name="nickname">
+                    </div>
+                    <div class="w-50">
+                        <label for="email">E-mail</label>
+                        <input required type="email" id="email" name="email">
+                    </div>
+                    <div class="w-50">
+                        <label for="number">Telefone</label>
+                        <input required type="number" id="number" name="number">
+                    </div>
+                    <div class="mt-2">
+                        <label for="message">Mensagem</label><br>
+                        <textarea rows="10" name="message" id="message"></textarea>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <button type="button" disabled>
+                        Enviar
+                    </button>
+                    <br><small>Função indisponível</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
